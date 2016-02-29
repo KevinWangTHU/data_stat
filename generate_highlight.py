@@ -17,7 +17,6 @@ if __name__ == "__main__":
                 if count % 100 == 0:
                     print count
                 f = open(in_dir + file_name).readlines()
-                print f
                 fo = open(out_dir + file_name.strip("story") + "highlight", 'w')
                 highlights = []
                 for i in range(len(f)):
