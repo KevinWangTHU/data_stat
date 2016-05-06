@@ -80,7 +80,7 @@ def summarizer_score(method="summ"):
             storyName = storyFiles[i]
             if not storyName.endswith(".story"):
                 continue
-            highlightName = storyFiles[i].strip("story") + "highlight"
+            highlightName = storyFiles[i].strip("story") + "highlight.txt"
             # print storyName, highlightName
             try:
                 if method == "summ":
